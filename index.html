@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<p>git config --global user.name blabla</p>
+<p>git config --global user.email blabal@bla</p>
+<p>git init</p>
+<p>git status</p>
+<p>git add</p>
+<p>git commit</p>
+<p>git log</p>
+<p>git checkout</p>
+<p>git branch</p>
+<p>git push</p>
+<p>git pull</p>
+<p>git merge</p>
+<p>git clone</p>
+
+<p><b>.gitignore</b> нужен для скрытия файлов и папок от системы контроля версий Git. Обычно скрывают конфигурационные файлы (особенно с паролями), временные файли и папки. gitignore использует glob формат для выборки файлов.</p>
+
+<p>Основной синтаксис:</p>
+
+<ul>
+<li>Каждая строка - отдельный шаблон</li>
+<li>Пустые строки игнорируются</li>
+<li>Строки начинающиеся с # являются комментариями
+<li>Символ слеша "/" в начале строки указывает на текущую папку (где лежит .gitignore)</li>
+<li>Звёздочка(*) заменяет любое количество символов</li>
+<li>Две звёздочки(**) используются для указания всех подпапок.</li>
+<li>Восклицательный знак(!) в начале строки инвертирует шаблон (используется для исключений)</li>
+<li>Для экранирования спецсимволов используется обратный слэш "\". Для игнорирования всей директории, правило должно оканчиваться на слэш(/), в противном случае правило считается именем файла.</li>
+
+<h1>Advanced</h1>
+
+<p>git revert</p>
+<p>git reset</p>
+<p>git rebase</p>
+<p>git cherry-pick</p>
+<p>git stash</p>
+</ul>
+</body>
+</html>
